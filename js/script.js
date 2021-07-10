@@ -1,4 +1,6 @@
 
+// Chiedi di inserire nome cognome e colore preferito e stampa a schermo tutto in minuscolo  
+
 
 
 var nome = prompt('Inserisci il tuo nome');
@@ -18,3 +20,10 @@ var pass = nome + cognome + colore + '21';
 
 document.getElementById('password').innerHTML = pass;
 
+
+
+// LEGENDA
+
+// prompt = Il metodo prompt() visualizza una finestra di dialogo che richiede l'input al visitatore.
+
+// toLowerCase() = Il toLowerCase()metodo converte una stringa in lettere minuscole.
